@@ -23,7 +23,7 @@ class Car(Vehicle):
         self.horsepower=horsepower
         self.max_speed=max_speed
     def __str__(self):
-        print( " i am a"+str(self.getColor(self))+ str(self.getColor(self))+ "car.")
+        print( " i am a"+str(self.getColor(self))+ str(self.getBrand(self))+ "car.")
         
     
         
